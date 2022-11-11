@@ -12,7 +12,7 @@ Installation
 First, download the git repository, then edit `config.json` as needed. The interval is in minutes.
 
 ```
-git clone https://github.com/ayogom/steemfeed-js.git
+git clone https://github.com/koolgal006/steemfeed-js
 cd steemfeed-js
 cp config.example.json config.json
 nano config.json
