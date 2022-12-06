@@ -2,11 +2,11 @@
   "name": "steemfeed-js",
   "version": "3.2.1",
   "description": "Steem Price Feed in JS with automatic retry for down nodes",
-  "repository": "https://github.com/someguy123/steemfeed-js",
+  "repository": "https://github.com/koolgal006/steemfeed-js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js publishnow"
+    "start": "npm start"
   },
   "author": "Chris <info@someguy123.com> (Someguy123)",
   "license": "GPL-3.0",
