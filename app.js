@@ -14,6 +14,7 @@ var settings = require('./lib/settings');
 var exchange = require('./lib/exchange');
 var request = require('request');
 var steem = require('steem');
+const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
 var config = settings.config,
     retry_conf = settings.retry_conf;
@@ -168,6 +169,7 @@ class SteemAcc {
         }
         console.log();
     }
+    await sleep(1800000); // sleep for 30 minutes
 }
 
 try {
